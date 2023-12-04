@@ -11,7 +11,7 @@ This project takes any input of text then classfies it into SPAM / HAM. This pro
   <li>Website(Streamlit Web App)</li>
   <li>Deploy</li>
 </ul>
-
+<hr>
 We have used several ML algorithms to create and evaluate this project some of them are :- 
 <br>SVC(kernel='sigmoid', gamma=1.0) <br>
 KNeighborsClassifier()<br>
@@ -24,5 +24,13 @@ BaggingClassifier(n_estimators=50, random_state=2)<br>
 ExtraTreesClassifier(n_estimators=50, random_state=2)<br>
 GradientBoostingClassifier(n_estimators=50, random_state=2)<br>
 XGBClassifier(n_estimators=50, random_state=2)<br>
-
+<hr>
 At the end the project we will be having fully trained ML model with generated NLP vectorizer file which will be used during Web App deployment of this project using Streamlit API
+<hr>
+<h2>Some Screen Shots</h2>
+<h4> Accuracy using different algorithms on same dataset</h4>
+<img src=./pics/acc.PNG/>
+<h4>Web App deployment</h4>
+<img src=./pics/1.PNG/>
+<hr><br>
+<h1 align="center">Thank You!!</h1>
